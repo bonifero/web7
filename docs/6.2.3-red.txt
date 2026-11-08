@@ -1,0 +1,16 @@
+Running 6 tests in a single process (parallelization threshold is 50)
+Started with run options --seed 7633
+
+
+Progress: |======================[0m[1000D[K FAIL UserTest#test_email_should_not_be_too_long (0.15s)
+        Expected true to be nil or false
+        test/models/user_test.rb:29:in 'block in <class:UserTest>'
+
+============[0m[1000D[K FAIL UserTest#test_name_should_not_be_too_long (0.17s)
+        Expected true to be nil or false
+        test/models/user_test.rb:24:in 'block in <class:UserTest>'
+
+==================================|
+
+Finished in 0.20427s
+6 tests, 6 assertions, 2 failures, 0 errors, 0 skips

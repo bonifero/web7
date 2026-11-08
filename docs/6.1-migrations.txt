@@ -1,0 +1,19 @@
+== 20261108000100 CreateUsers: migrating ======================================
+-- create_table(:users)
+   -> 0.0035s
+== 20261108000100 CreateUsers: migrated (0.0036s) =============================
+
+== 20261108000100 CreateUsers: reverting ======================================
+-- drop_table(:users)
+   -> 0.0032s
+== 20261108000100 CreateUsers: reverted (0.0110s) =============================
+
+Rollback removed users: PASS
+== 20261108000100 CreateUsers: migrating ======================================
+-- create_table(:users)
+   -> 0.0038s
+== 20261108000100 CreateUsers: migrated (0.0039s) =============================
+
+Schema restored exactly: PASS
+["id", "name", "email", "created_at", "updated_at"]
+[User(id: integer, name: string, email: string, created_at: datetime, updated_at: datetime), ApplicationRecord(abstract), ActiveRecord::Base]

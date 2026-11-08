@@ -1,0 +1,14 @@
+Running 8 tests in a single process (parallelization threshold is 50)
+Started with run options --seed 906
+
+
+Progress: |===========================================================[0m[1000D[K FAIL UserTest#test_email_validation_should_reject_invalid_addresses (0.23s)
+        "user@example,com" should be invalid
+        test/models/user_test.rb:48:in 'block (2 levels) in <class:UserTest>'
+        test/models/user_test.rb:46:in 'Array#each'
+        test/models/user_test.rb:46:in 'block in <class:UserTest>'
+
+=========|
+
+Finished in 0.24392s
+8 tests, 12 assertions, 1 failures, 0 errors, 0 skips

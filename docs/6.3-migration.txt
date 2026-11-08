@@ -1,0 +1,5 @@
+== 20261108000300 AddPasswordDigestToUsers: migrating =========================
+-- add_column(:users, :password_digest, :string)
+   -> 0.0038s
+== 20261108000300 AddPasswordDigestToUsers: migrated (0.0039s) ================
+

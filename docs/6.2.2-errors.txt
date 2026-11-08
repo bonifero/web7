@@ -1,0 +1,5 @@
+valid: false
+["Name can't be blank", "Email can't be blank"]
+messages class: Hash
+{name: ["can't be blank"], email: ["can't be blank"]}
+email errors: ["can't be blank"]

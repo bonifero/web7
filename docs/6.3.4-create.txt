@@ -1,0 +1,22 @@
+  [1m[36mUser Load (2.1ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = 'michael@example.com' LIMIT 1 /*application='SampleApp'*/[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*application='SampleApp'*/[0m
+  [1m[36mUser Exists? (1.9ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('michael@example.com') LIMIT 1 /*application='SampleApp'*/[0m
+  [1m[36mUser Create (0.2ms)[0m  [1m[32mINSERT INTO "users" ("name", "email", "created_at", "updated_at", "password_digest") VALUES ('Michael Hartl', 'michael@example.com', '2026-11-08 16:09:01.140960', '2026-11-08 16:09:01.140960', '$2a$12$2/k4KZP1i97VWjsd8zlczeQ60r/6mtBHKBp2.dkSCSElXGiqct34.') RETURNING "id" /*application='SampleApp'*/[0m
+  [1m[36mTRANSACTION (45.3ms)[0m  [1m[35mCOMMIT TRANSACTION /*application='SampleApp'*/[0m
+Loading development environment (Rails 8.1.4)
+Switch to inspect mode.
+user = User.find_or_initialize_by(email: "michael@example.com")
+
+#<User:0x00007f576cd665a8
+...
+user.assign_attributes(name: "Michael Hartl", password: "foobar", password_confirmation: "foobar")
+nil
+user.save!
+true
+puts "created id=#{user.id}; email=#{user.email}"
+created id=1; email=michael@example.com
+nil
+puts "digest uses bcrypt: #{user.password_digest.start_with?("$2a$", "$2b$")}"
+digest uses bcrypt: true
+nil
+

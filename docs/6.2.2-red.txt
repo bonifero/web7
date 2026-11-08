@@ -1,0 +1,16 @@
+Running 3 tests in a single process (parallelization threshold is 50)
+Started with run options --seed 55312
+
+
+Progress: |======================[0m[1000D[K FAIL UserTest#test_name_should_be_present (0.16s)
+        Expected true to be nil or false
+        test/models/user_test.rb:14:in 'block in <class:UserTest>'
+
+======================[0m[1000D[K FAIL UserTest#test_email_should_be_present (0.17s)
+        Expected true to be nil or false
+        test/models/user_test.rb:19:in 'block in <class:UserTest>'
+
+========================|
+
+Finished in 0.18679s
+3 tests, 3 assertions, 2 failures, 0 errors, 0 skips

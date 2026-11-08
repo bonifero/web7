@@ -1,0 +1,13 @@
+Running 11 tests in a single process (parallelization threshold is 50)
+Started with run options --seed 255
+
+
+Progress: |========================[0m[1000D[K FAIL UserTest#test_email_addresses_should_be_saved_as_lowercase (0.29s)
+        Expected: "foo@example.com"
+          Actual: "Foo@ExAMPle.CoM"
+        test/models/user_test.rb:63:in 'block in <class:UserTest>'
+
+============================================|
+
+Finished in 0.42275s
+11 tests, 20 assertions, 1 failures, 0 errors, 0 skips

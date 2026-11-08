@@ -1,0 +1,16 @@
+Running 16 tests in a single process (parallelization threshold is 50)
+Started with run options --seed 17985
+
+
+Progress: |============[0m[1000D[K FAIL UserTest#test_password_should_have_a_minimum_length (0.46s)
+        Expected true to be nil or false
+        test/models/user_test.rb:80:in 'block in <class:UserTest>'
+
+=========[0m[1000D[K FAIL UserTest#test_password_should_be_present_nonblank (0.49s)
+        Expected true to be nil or false
+        test/models/user_test.rb:75:in 'block in <class:UserTest>'
+
+===============================================|
+
+Finished in 0.71140s
+16 tests, 25 assertions, 2 failures, 0 errors, 0 skips

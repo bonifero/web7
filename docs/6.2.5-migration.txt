@@ -1,0 +1,5 @@
+== 20261108000200 AddIndexToUsersEmail: migrating =============================
+-- add_index(:users, :email, {unique: true})
+   -> 0.0029s
+== 20261108000200 AddIndexToUsersEmail: migrated (0.0030s) ====================
+

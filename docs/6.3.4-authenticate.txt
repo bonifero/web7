@@ -1,0 +1,43 @@
+  [1m[36mUser Load (1.9ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."email" = 'michael@example.com' LIMIT 1 /*application='SampleApp'*/[0m
+  [1m[36mTRANSACTION (1.0ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*application='SampleApp'*/[0m
+  [1m[36mUser Exists? (1.9ms)[0m  [1m[34mSELECT 1 AS one FROM "users" WHERE LOWER("users"."email") = LOWER('michael@example.com') AND "users"."id" != 1 LIMIT 1 /*application='SampleApp'*/[0m
+  [1m[36mTRANSACTION (0.4ms)[0m  [1m[31mROLLBACK TRANSACTION /*application='SampleApp'*/[0m
+Loading development environment (Rails 8.1.4)
+Switch to inspect mode.
+user = User.find_by!(email: "michael@example.com")
+
+#<User:0x00007f5b1d812958
+...
+puts "found after restart: #{user.id} #{user.name}"
+found after restart: 1 Michael Hartl
+nil
+puts "wrong password: #{user.authenticate("not_the_right_password").inspect}"
+wrong password: false
+nil
+puts "foobaz: #{user.authenticate("foobaz").inspect}"
+foobaz: false
+nil
+puts "correct password returns user: #{user.authenticate("foobar") == user}"
+correct password returns user: true
+nil
+puts "boolean: #{!!user.authenticate("foobar")}"
+boolean: true
+nil
+user.name = "Никита Сотников"
+"Никита Сотников"
+puts "save without password: #{user.save}"
+save without password: false
+nil
+p user.errors.full_messages
+["Password can't be blank", "Password is too short (minimum is 6 characters)"]
+  [1m[36mTRANSACTION (0.6ms)[0m  [1m[35mBEGIN immediate TRANSACTION /*application='SampleApp'*/[0m
+  [1m[36mUser Update (13.5ms)[0m  [1m[33mUPDATE "users" SET "name" = 'Никита Сотников', "updated_at" = '2026-11-08 16:09:10.096281' WHERE "users"."id" = 1 /*application='SampleApp'*/[0m
+  [1m[36mTRANSACTION (60.0ms)[0m  [1m[35mCOMMIT TRANSACTION /*application='SampleApp'*/[0m
+  [1m[36mUser Load (3.2ms)[0m  [1m[34mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1 /*application='SampleApp'*/[0m
+["Password can't be blank", "Password is too short (minimum is 6 characters)"]
+user.update_attribute(:name, "Никита Сотников")
+true
+puts "updated name: #{user.reload.name}"
+updated name: Никита Сотников
+nil
+

@@ -1,0 +1,12 @@
+Running 9 tests in a single process (parallelization threshold is 50)
+Started with run options --seed 5028
+
+
+Progress: |=====================================[0m[1000D[K FAIL UserTest#test_email_addresses_should_be_unique (0.22s)
+        Expected true to be nil or false
+        test/models/user_test.rb:56:in 'block in <class:UserTest>'
+
+===============================|
+
+Finished in 0.27831s
+9 tests, 18 assertions, 1 failures, 0 errors, 0 skips

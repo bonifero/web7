@@ -1,0 +1,4 @@
+without password valid: false
+["Password can't be blank", "Password can't be blank", "Password is too short (minimum is 6 characters)"]
+short password valid: false
+["Password is too short (minimum is 6 characters)"]

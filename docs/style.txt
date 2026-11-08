@@ -1,0 +1,47 @@
+Inspecting 41 files
+.C....C............................C.CC..
+
+Offenses:
+
+Guardfile:10:5: C: [Correctable] Layout/SpaceInsideArrayLiteralBrackets: Use space inside array brackets.
+    ["test/models/#{matches[1]}_test.rb",
+    ^
+Guardfile:11:53: C: Layout/SpaceInsideArrayLiteralBrackets: Use space inside array brackets.
+     "test/integration/microposts_interface_test.rb"]
+                                                    ^
+Guardfile:26:5: C: [Correctable] Layout/SpaceInsideArrayLiteralBrackets: Use space inside array brackets.
+    ["test/controllers/#{matches[1]}_controller_test.rb"] +
+    ^
+Guardfile:26:57: C: Layout/SpaceInsideArrayLiteralBrackets: Use space inside array brackets.
+    ["test/controllers/#{matches[1]}_controller_test.rb"] +
+                                                        ^
+Guardfile:39:5: C: [Correctable] Layout/SpaceInsideArrayLiteralBrackets: Use space inside array brackets.
+    ['test/controllers/sessions_controller_test.rb',
+    ^
+Guardfile:40:44: C: Layout/SpaceInsideArrayLiteralBrackets: Use space inside array brackets.
+     'test/integration/users_login_test.rb']
+                                           ^
+Guardfile:47:5: C: [Correctable] Layout/SpaceInsideArrayLiteralBrackets: Use space inside array brackets.
+    ['test/integration/microposts_interface_test.rb']
+    ^
+Guardfile:47:53: C: Layout/SpaceInsideArrayLiteralBrackets: Use space inside array brackets.
+    ['test/integration/microposts_interface_test.rb']
+                                                    ^
+Guardfile:50:5: C: [Correctable] Layout/SpaceInsideArrayLiteralBrackets: Use space inside array brackets.
+    ['test/controllers/relationships_controller_test.rb',
+    ^
+Guardfile:51:42: C: Layout/SpaceInsideArrayLiteralBrackets: Use space inside array brackets.
+     'test/integration/following_test.rb']
+                                         ^
+app/helpers/application_helper.rb:2:1: C: [Correctable] Layout/EmptyLinesAroundModuleBody: Extra empty line detected at module body beginning.
+app/helpers/application_helper.rb:4:31: C: [Correctable] Style/StringLiterals: Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.
+  def full_title(page_title = '')
+                              ^^
+test/controllers/static_pages_controller_test.rb:4:1: C: [Correctable] Layout/EmptyLinesAroundClassBody: Extra empty line detected at class body beginning.
+test/helpers/application_helper_test.rb:4:1: C: [Correctable] Layout/EmptyLinesAroundClassBody: Extra empty line detected at class body beginning.
+test/integration/site_layout_test.rb:4:1: C: [Correctable] Layout/EmptyLinesAroundClassBody: Extra empty line detected at class body beginning.
+test/integration/site_layout_test.rb:7:21: C: [Correctable] Style/StringLiterals: Prefer double-quoted strings unless you need single quotes to avoid extra backslashes for escaping.
+    assert_template 'static_pages/home'
+                    ^^^^^^^^^^^^^^^^^^^
+
+41 files inspected, 16 offenses detected, 11 offenses autocorrectable

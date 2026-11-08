@@ -1,0 +1,527 @@
+Download ruby-advisory-db ...
+ruby-advisory-db:
+  advisories:	1352 advisories
+  last updated:	2026-11-07 21:07:00 -0500
+  commit:	7e90cbd88d767c9281acefbb8854c80e0cad6060
+Name: actionmailbox
+Version: 8.1.4
+GHSA: GHSA-5957-c7qm-m469
+Criticality: Low
+URL: https://github.com/rails/rails/security/advisories/GHSA-5957-c7qm-m469
+Title: Possible signature replay in Action Mailbox Mailgun ingress
+Solution: update to '~> 8.0.5, >= 8.0.5.2', '>= 8.1.4.1'
+
+Name: actionpack
+Version: 8.1.4
+GHSA: GHSA-2586-8ghr-69fj
+Criticality: Medium
+URL: https://github.com/rails/rails/security/advisories/GHSA-2586-8ghr-69fj
+Title: Possible restoration of destroyed sessions in Action Dispatch CacheStore
+Solution: update to '~> 8.0.5, >= 8.0.5.2', '>= 8.1.4.1'
+
+Name: actionpack
+Version: 8.1.4
+GHSA: GHSA-2gff-2mmg-m73p
+Criticality: High
+URL: https://github.com/rails/rails/security/advisories/GHSA-2gff-2mmg-m73p
+Title: Possible IP spoofing in Action Dispatch RemoteIp
+Solution: update to '>= 8.1.4.1'
+
+Name: actionpack
+Version: 8.1.4
+GHSA: GHSA-gmj8-hvj3-49mw
+Criticality: Low
+URL: https://github.com/rails/rails/security/advisories/GHSA-gmj8-hvj3-49mw
+Title: Missing SameSite attribute on session cookies from Action Pack session stores
+Solution: update to '~> 8.0.5, >= 8.0.5.2', '>= 8.1.4.1'
+
+Name: actionpack
+Version: 8.1.4
+GHSA: GHSA-r9jg-fmfx-2gv6
+Criticality: Medium
+URL: https://github.com/rails/rails/security/advisories/GHSA-r9jg-fmfx-2gv6
+Title: Possible cache poisoning in Action Pack content negotiation
+Solution: update to '~> 8.0.5, >= 8.0.5.2', '>= 8.1.4.1'
+
+Name: actionpack
+Version: 8.1.4
+GHSA: GHSA-rwvh-fw6r-pwvp
+Criticality: Medium
+URL: https://github.com/rails/rails/security/advisories/GHSA-rwvh-fw6r-pwvp
+Title: Possible DoS vulnerability in Action Controller Live streaming
+Solution: update to '~> 8.0.5, >= 8.0.5.2', '>= 8.1.4.1'
+
+Name: actionpack
+Version: 8.1.4
+GHSA: GHSA-wm3x-v3qw-4jh3
+Criticality: High
+URL: https://github.com/rails/rails/security/advisories/GHSA-wm3x-v3qw-4jh3
+Title: Possible Strong Parameters bypass in Parameters#each_key in Action Pack
+Solution: update to '~> 8.0.5, >= 8.0.5.2', '>= 8.1.4.1'
+
+Name: actionpack
+Version: 8.1.4
+GHSA: GHSA-x6mj-8jx9-qhqv
+Criticality: Medium
+URL: https://github.com/rails/rails/security/advisories/GHSA-x6mj-8jx9-qhqv
+Title: Possible sensitive session information leak in Active Storage proxy mode
+Solution: update to '~> 8.0.5, >= 8.0.5.2', '>= 8.1.4.1'
+
+Name: actionview
+Version: 8.1.4
+GHSA: GHSA-2p2f-4rq4-gjwc
+Criticality: Medium
+URL: https://github.com/rails/rails/security/advisories/GHSA-2p2f-4rq4-gjwc
+Title: Possible XSS vulnerability in Action View text helpers
+Solution: update to '~> 8.0.5, >= 8.0.5.2', '>= 8.1.4.1'
+
+Name: actionview
+Version: 8.1.4
+GHSA: GHSA-68p9-83h6-5wpj
+Criticality: Medium
+URL: https://github.com/rails/rails/security/advisories/GHSA-68p9-83h6-5wpj
+Title: Possible XSS vulnerability in Action View tag helpers
+Solution: update to '~> 8.0.5, >= 8.0.5.2', '>= 8.1.4.1'
+
+Name: actionview
+Version: 8.1.4
+GHSA: GHSA-rq8q-p985-fjq7
+Criticality: Medium
+URL: https://github.com/rails/rails/security/advisories/GHSA-rq8q-p985-fjq7
+Title: Possible XSS vulnerability in Action View strip_tags
+Solution: update to '~> 8.0.5, >= 8.0.5.2', '>= 8.1.4.1'
+
+Name: actionview
+Version: 8.1.4
+GHSA: GHSA-v6rj-xm57-3p59
+Criticality: Medium
+URL: https://github.com/rails/rails/security/advisories/GHSA-v6rj-xm57-3p59
+Title: Possible XSS vulnerability in Action View highlight helper
+Solution: update to '~> 8.0.5, >= 8.0.5.2', '>= 8.1.4.1'
+
+Name: activestorage
+Version: 8.1.4
+GHSA: GHSA-3f4q-8x5m-76v8
+Criticality: Low
+URL: https://github.com/rails/rails/security/advisories/GHSA-3f4q-8x5m-76v8
+Title: Possible local file disclosure in Active Storage video previews and analysis
+Solution: update to '~> 8.0.5, >= 8.0.5.2', '>= 8.1.4.1'
+
+Name: activestorage
+Version: 8.1.4
+GHSA: GHSA-3w93-6hmw-whh4
+Criticality: Medium
+URL: https://github.com/rails/rails/security/advisories/GHSA-3w93-6hmw-whh4
+Title: Unsigned Content-Type in Active Storage GCS direct uploads with cache_control
+Solution: update to '~> 8.0.5, >= 8.0.5.2', '>= 8.1.4.1'
+
+Name: activestorage
+Version: 8.1.4
+GHSA: GHSA-4v2w-w6g6-f8f8
+Criticality: Medium
+URL: https://github.com/rails/rails/security/advisories/GHSA-4v2w-w6g6-f8f8
+Title: Possible DoS vulnerability in Active Storage proxy mode via storage errors during streaming
+Solution: update to '~> 8.0.5, >= 8.0.5.2', '>= 8.1.4.1'
+
+Name: activestorage
+Version: 8.1.4
+GHSA: GHSA-f3w6-w445-fwh9
+Criticality: Critical
+URL: https://github.com/rails/rails/security/advisories/GHSA-f3w6-w445-fwh9
+Title: Possible arbitrary file write and read in Active Storage image analysis
+Solution: update to '~> 8.0.5, >= 8.0.5.2', '>= 8.1.4.1'
+
+Name: activestorage
+Version: 8.1.4
+GHSA: GHSA-hfr4-8rjc-97m2
+Criticality: Medium
+URL: https://github.com/rails/rails/security/advisories/GHSA-hfr4-8rjc-97m2
+Title: Possible circumvention of file size limits in Active Storage direct uploads to Google Cloud Storage
+Solution: update to '~> 8.0.5, >= 8.0.5.2', '>= 8.1.4.1'
+
+Name: activestorage
+Version: 8.1.4
+GHSA: GHSA-p2pm-g2h6-7j5j
+Criticality: Medium
+URL: https://github.com/rails/rails/security/advisories/GHSA-p2pm-g2h6-7j5j
+Title: Possible DoS vulnerability in Active Storage filename handling
+Solution: update to '~> 8.0.5, >= 8.0.5.2', '>= 8.1.4.1'
+
+Name: activestorage
+Version: 8.1.4
+GHSA: GHSA-v924-7rp8-4mxh
+Criticality: High
+URL: https://github.com/rails/rails/security/advisories/GHSA-v924-7rp8-4mxh
+Title: Possible arbitrary file read and remote code execution in Active Storage video previews, analysis and image processing
+Solution: update to '~> 8.0.5, >= 8.0.5.2', '>= 8.1.4.1'
+
+Name: activesupport
+Version: 8.1.4
+GHSA: GHSA-2w9f-fxwj-w2qf
+Criticality: Medium
+URL: https://github.com/rails/rails/security/advisories/GHSA-2w9f-fxwj-w2qf
+Title: Possible XSS vulnerability in Active Support MessagePack serializer
+Solution: update to '>= 8.1.4.1'
+
+Name: activesupport
+Version: 8.1.4
+GHSA: GHSA-8474-xrp6-wh69
+Criticality: High
+URL: https://github.com/rails/rails/security/advisories/GHSA-8474-xrp6-wh69
+Title: Possible DoS vulnerability in Active Support safe_constantize
+Solution: update to '~> 8.0.5, >= 8.0.5.2', '>= 8.1.4.1'
+
+Name: addressable
+Version: 2.9.0
+GHSA: GHSA-4w5q-wg7v-w6gp
+Criticality: Medium
+URL: https://github.com/sporkmonger/addressable/security/advisories/GHSA-4w5q-wg7v-w6gp
+Title: Regular Expression Denial of Service in Addressable templates with several exploded variables
+Solution: update to '>= 2.9.1'
+
+Name: addressable
+Version: 2.9.0
+GHSA: GHSA-539f-xcgw-2gjg
+Criticality: Low
+URL: https://github.com/sporkmonger/addressable/security/advisories/GHSA-539f-xcgw-2gjg
+Title: Addressable display_uri can show misleading hosts containing bidi and invisible characters
+Solution: update to '>= 2.9.1'
+
+Name: addressable
+Version: 2.9.0
+GHSA: GHSA-8gmh-2hhj-2hv9
+Criticality: Medium
+URL: https://github.com/sporkmonger/addressable/security/advisories/GHSA-8gmh-2hhj-2hv9
+Title: Addressable URI normalization resolves some dotted path segments to the wrong path
+Solution: update to '>= 2.9.1'
+
+Name: addressable
+Version: 2.9.0
+GHSA: GHSA-9crm-g4mf-wc5j
+Criticality: Medium
+URL: https://github.com/sporkmonger/addressable/security/advisories/GHSA-9crm-g4mf-wc5j
+Title: Addressable display_uri can show misleading hosts with invalid Punycode A-labels
+Solution: update to '>= 2.9.1'
+
+Name: addressable
+Version: 2.9.0
+GHSA: GHSA-9f42-57jx-vpp3
+Criticality: Medium
+URL: https://github.com/sporkmonger/addressable/security/advisories/GHSA-9f42-57jx-vpp3
+Title: Regular Expression Denial of Service in Addressable templates with multiple variables
+Solution: update to '>= 2.9.1'
+
+Name: addressable
+Version: 2.9.0
+GHSA: GHSA-j82w-28jv-3pmj
+Criticality: Medium
+URL: https://github.com/sporkmonger/addressable/security/advisories/GHSA-j82w-28jv-3pmj
+Title: Regular Expression Denial of Service in Addressable templates with certain exploded expressions
+Solution: update to '>= 2.9.1'
+
+Name: addressable
+Version: 2.9.0
+GHSA: GHSA-qq38-m9mg-xjj5
+Criticality: Medium
+URL: https://github.com/sporkmonger/addressable/security/advisories/GHSA-qq38-m9mg-xjj5
+Title: Denial of service in Addressable URI path normalization
+Solution: update to '>= 2.9.1'
+
+Name: crass
+Version: 1.0.7
+CVE: CVE-2026-116695
+GHSA: GHSA-pq4g-8rxf-4g29
+Criticality: Unknown
+URL: https://github.com/rgrove/crass/security/advisories/GHSA-pq4g-8rxf-4g29
+Title: Incorrect tokenization of bad URLs enables CSS sanitizer bypass
+Solution: update to '>= 1.0.8'
+
+Name: loofah
+Version: 2.25.2
+GHSA: GHSA-345x-3rq2-jfrm
+Criticality: Medium
+URL: https://github.com/flavorjones/loofah/security/advisories/GHSA-345x-3rq2-jfrm
+Title: SVG `<textPath>` and `<mpath>` bypass local-reference restriction in Loofah
+Solution: update to '>= 2.25.3'
+
+Name: loofah
+Version: 2.25.2
+GHSA: GHSA-h6v6-rg66-fqj4
+Criticality: Medium
+URL: https://github.com/flavorjones/loofah/security/advisories/GHSA-h6v6-rg66-fqj4
+Title: Mutation XSS in Loofah HTML5 scrubbers through unescaped attribute values
+Solution: update to '>= 2.25.3'
+
+Name: loofah
+Version: 2.25.2
+GHSA: GHSA-jcff-cj73-4w4f
+Criticality: Unknown
+URL: https://github.com/flavorjones/loofah/security/advisories/GHSA-jcff-cj73-4w4f
+Title: Loofah allowed_uri? treats data:text&sol;html as safe text/plain
+Solution: update to '>= 2.25.3'
+
+Name: loofah
+Version: 2.25.2
+GHSA: GHSA-m3x9-938q-5767
+Criticality: Medium
+URL: https://github.com/flavorjones/loofah/security/advisories/GHSA-m3x9-938q-5767
+Title: CSS url() sanitization bypass via escaped parentheses in Loofah
+Solution: update to '>= 2.25.3'
+
+Name: loofah
+Version: 2.25.2
+GHSA: GHSA-mf2j-8f84-cc9q
+Criticality: Medium
+URL: https://github.com/flavorjones/loofah/security/advisories/GHSA-mf2j-8f84-cc9q
+Title: Regular expression denial of service in Loofah's SVG local-reference check
+Solution: update to '>= 2.25.3'
+
+Name: loofah
+Version: 2.25.2
+GHSA: GHSA-p9wj-w8xq-vjx6
+Criticality: Unknown
+URL: https://github.com/flavorjones/loofah/security/advisories/GHSA-p9wj-w8xq-vjx6
+Title: Loofah allowed_uri? treats javascript&#x3a alert(1) as safe
+Solution: update to '>= 2.25.3'
+
+Name: nokogiri
+Version: 1.19.4
+GHSA: GHSA-3w22-6jfg-527w
+Criticality: Unknown
+URL: https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-3w22-6jfg-527w
+Title: Use-After-Free in Nokogiri when replacing an attribute value
+Solution: update to '>= 1.19.5'
+
+Name: nokogiri
+Version: 1.19.4
+GHSA: GHSA-4p39-36wj-23h4
+Criticality: Unknown
+URL: https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-4p39-36wj-23h4
+Title: Possible Mutation XSS when serializing `noscript` content in `Nokogiri::HTML5` documents
+Solution: update to '>= 1.19.5'
+
+Name: nokogiri
+Version: 1.19.4
+GHSA: GHSA-v995-44v6-5fqm
+Criticality: Low
+URL: https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-v995-44v6-5fqm
+Title: Possible SSRF on JRuby when resolving external DTDs or entities with `NONET` set
+Solution: update to '>= 1.19.5'
+
+Name: nokogiri
+Version: 1.19.4
+GHSA: GHSA-3w22-6jfg-527w
+Criticality: Unknown
+URL: https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-3w22-6jfg-527w
+Title: Use-After-Free in Nokogiri when replacing an attribute value
+Solution: update to '>= 1.19.5'
+
+Name: nokogiri
+Version: 1.19.4
+GHSA: GHSA-4p39-36wj-23h4
+Criticality: Unknown
+URL: https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-4p39-36wj-23h4
+Title: Possible Mutation XSS when serializing `noscript` content in `Nokogiri::HTML5` documents
+Solution: update to '>= 1.19.5'
+
+Name: nokogiri
+Version: 1.19.4
+GHSA: GHSA-v995-44v6-5fqm
+Criticality: Low
+URL: https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-v995-44v6-5fqm
+Title: Possible SSRF on JRuby when resolving external DTDs or entities with `NONET` set
+Solution: update to '>= 1.19.5'
+
+Name: nokogiri
+Version: 1.19.4
+GHSA: GHSA-3w22-6jfg-527w
+Criticality: Unknown
+URL: https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-3w22-6jfg-527w
+Title: Use-After-Free in Nokogiri when replacing an attribute value
+Solution: update to '>= 1.19.5'
+
+Name: nokogiri
+Version: 1.19.4
+GHSA: GHSA-4p39-36wj-23h4
+Criticality: Unknown
+URL: https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-4p39-36wj-23h4
+Title: Possible Mutation XSS when serializing `noscript` content in `Nokogiri::HTML5` documents
+Solution: update to '>= 1.19.5'
+
+Name: nokogiri
+Version: 1.19.4
+GHSA: GHSA-v995-44v6-5fqm
+Criticality: Low
+URL: https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-v995-44v6-5fqm
+Title: Possible SSRF on JRuby when resolving external DTDs or entities with `NONET` set
+Solution: update to '>= 1.19.5'
+
+Name: nokogiri
+Version: 1.19.4
+GHSA: GHSA-3w22-6jfg-527w
+Criticality: Unknown
+URL: https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-3w22-6jfg-527w
+Title: Use-After-Free in Nokogiri when replacing an attribute value
+Solution: update to '>= 1.19.5'
+
+Name: nokogiri
+Version: 1.19.4
+GHSA: GHSA-4p39-36wj-23h4
+Criticality: Unknown
+URL: https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-4p39-36wj-23h4
+Title: Possible Mutation XSS when serializing `noscript` content in `Nokogiri::HTML5` documents
+Solution: update to '>= 1.19.5'
+
+Name: nokogiri
+Version: 1.19.4
+GHSA: GHSA-v995-44v6-5fqm
+Criticality: Low
+URL: https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-v995-44v6-5fqm
+Title: Possible SSRF on JRuby when resolving external DTDs or entities with `NONET` set
+Solution: update to '>= 1.19.5'
+
+Name: nokogiri
+Version: 1.19.4
+GHSA: GHSA-3w22-6jfg-527w
+Criticality: Unknown
+URL: https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-3w22-6jfg-527w
+Title: Use-After-Free in Nokogiri when replacing an attribute value
+Solution: update to '>= 1.19.5'
+
+Name: nokogiri
+Version: 1.19.4
+GHSA: GHSA-4p39-36wj-23h4
+Criticality: Unknown
+URL: https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-4p39-36wj-23h4
+Title: Possible Mutation XSS when serializing `noscript` content in `Nokogiri::HTML5` documents
+Solution: update to '>= 1.19.5'
+
+Name: nokogiri
+Version: 1.19.4
+GHSA: GHSA-v995-44v6-5fqm
+Criticality: Low
+URL: https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-v995-44v6-5fqm
+Title: Possible SSRF on JRuby when resolving external DTDs or entities with `NONET` set
+Solution: update to '>= 1.19.5'
+
+Name: nokogiri
+Version: 1.19.4
+GHSA: GHSA-3w22-6jfg-527w
+Criticality: Unknown
+URL: https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-3w22-6jfg-527w
+Title: Use-After-Free in Nokogiri when replacing an attribute value
+Solution: update to '>= 1.19.5'
+
+Name: nokogiri
+Version: 1.19.4
+GHSA: GHSA-4p39-36wj-23h4
+Criticality: Unknown
+URL: https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-4p39-36wj-23h4
+Title: Possible Mutation XSS when serializing `noscript` content in `Nokogiri::HTML5` documents
+Solution: update to '>= 1.19.5'
+
+Name: nokogiri
+Version: 1.19.4
+GHSA: GHSA-v995-44v6-5fqm
+Criticality: Low
+URL: https://github.com/sparklemotion/nokogiri/security/advisories/GHSA-v995-44v6-5fqm
+Title: Possible SSRF on JRuby when resolving external DTDs or entities with `NONET` set
+Solution: update to '>= 1.19.5'
+
+Name: rack
+Version: 3.2.7
+GHSA: GHSA-2j8w-xcrc-x985
+Criticality: Medium
+URL: https://github.com/rack/rack/security/advisories/GHSA-2j8w-xcrc-x985
+Title: Rack::Request#host_with_port and `#base_url` return an invalid `Host` verbatim, enabling URL and allowlist bypass
+Solution: update to '~> 3.1.23', '>= 3.2.8'
+
+Name: rack
+Version: 3.2.7
+GHSA: GHSA-5v64-555j-wjxm
+Criticality: High
+URL: https://github.com/rack/rack/security/advisories/GHSA-5v64-555j-wjxm
+Title: Multipart parser retains parsed data in its scan buffer, allowing denial of service via memory exhaustion.
+Solution: update to '~> 2.2.25', '~> 3.1.23', '>= 3.2.8'
+
+Name: rack
+Version: 3.2.7
+GHSA: GHSA-p8x9-v4hv-2w4g
+Criticality: Low
+URL: https://github.com/rack/rack/security/advisories/GHSA-p8x9-v4hv-2w4g
+Title: Multipart boundary guard skips a leading empty or quoted `boundary` parameter, allowing parser differentials and WAF bypass
+Solution: update to '~> 2.2.25', '~> 3.1.23', '>= 3.2.8'
+
+Name: rack
+Version: 3.2.7
+GHSA: GHSA-wvg4-6p58-3gh3
+Criticality: Medium
+URL: https://github.com/rack/rack/security/advisories/GHSA-wvg4-6p58-3gh3
+Title: Rack::Static `header_rules` bypass via unnormalized dot segments in the request path
+Solution: update to '~> 2.2.25', '~> 3.1.23', '>= 3.2.8'
+
+Name: rails-html-sanitizer
+Version: 1.7.1
+GHSA: GHSA-cpgf-5mjf-73p7
+Criticality: Medium
+URL: https://github.com/rails/rails-html-sanitizer/security/advisories/GHSA-cpgf-5mjf-73p7
+Title: Possible regular expression denial of service with certain configurations of rails-html-sanitizer
+Solution: update to '>= 1.7.2'
+
+Name: rails-html-sanitizer
+Version: 1.7.1
+GHSA: GHSA-h7wh-q2qr-458c
+Criticality: Medium
+URL: https://github.com/rails/rails-html-sanitizer/security/advisories/GHSA-h7wh-q2qr-458c
+Title: Possible XSS via shared scrubber state in concurrent rails-html-sanitizer calls
+Solution: update to '>= 1.7.2'
+
+Name: sqlite3
+Version: 2.9.6
+GHSA: GHSA-4fqr-96q8-xrfx
+Criticality: Medium
+URL: https://github.com/sparklemotion/sqlite3-ruby/security/advisories/GHSA-4fqr-96q8-xrfx
+Title: Possible SQL query truncation when a string is 4 GiB or larger
+Solution: update to '>= 2.10.2'
+
+Name: sqlite3
+Version: 2.9.6
+GHSA: GHSA-4fqr-96q8-xrfx
+Criticality: Medium
+URL: https://github.com/sparklemotion/sqlite3-ruby/security/advisories/GHSA-4fqr-96q8-xrfx
+Title: Possible SQL query truncation when a string is 4 GiB or larger
+Solution: update to '>= 2.10.2'
+
+Name: sqlite3
+Version: 2.9.6
+GHSA: GHSA-4fqr-96q8-xrfx
+Criticality: Medium
+URL: https://github.com/sparklemotion/sqlite3-ruby/security/advisories/GHSA-4fqr-96q8-xrfx
+Title: Possible SQL query truncation when a string is 4 GiB or larger
+Solution: update to '>= 2.10.2'
+
+Name: sqlite3
+Version: 2.9.6
+GHSA: GHSA-4fqr-96q8-xrfx
+Criticality: Medium
+URL: https://github.com/sparklemotion/sqlite3-ruby/security/advisories/GHSA-4fqr-96q8-xrfx
+Title: Possible SQL query truncation when a string is 4 GiB or larger
+Solution: update to '>= 2.10.2'
+
+Name: sqlite3
+Version: 2.9.6
+GHSA: GHSA-4fqr-96q8-xrfx
+Criticality: Medium
+URL: https://github.com/sparklemotion/sqlite3-ruby/security/advisories/GHSA-4fqr-96q8-xrfx
+Title: Possible SQL query truncation when a string is 4 GiB or larger
+Solution: update to '>= 2.10.2'
+
+Name: sqlite3
+Version: 2.9.6
+GHSA: GHSA-4fqr-96q8-xrfx
+Criticality: Medium
+URL: https://github.com/sparklemotion/sqlite3-ruby/security/advisories/GHSA-4fqr-96q8-xrfx
+Title: Possible SQL query truncation when a string is 4 GiB or larger
+Solution: update to '>= 2.10.2'
+
+Vulnerabilities found!

@@ -1,0 +1,8 @@
+Running 9 tests in a single process (parallelization threshold is 50)
+Started with run options --seed 11717
+
+
+Progress: |====================================================================|
+
+Finished in 0.32599s
+9 tests, 18 assertions, 0 failures, 0 errors, 0 skips
